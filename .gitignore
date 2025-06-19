@@ -195,6 +195,5 @@ dmypy.json
 Thumbs.db
 
 # Bot specific
-config.py
 .env
 *.log 
