@@ -2,13 +2,13 @@ import aiohttp
 import json
 import logging
 import uuid
-from config import AI_API_KEY
+from config import GIGACHAT_AUTH_KEY
 
 logger = logging.getLogger(__name__)
 
 class AIClient:
     def __init__(self):
-        self.auth_key = AI_API_KEY  # Это Authorization key от Сбера
+        self.auth_key = GIGACHAT_AUTH_KEY  # Это Authorization key от Сбера
         self.access_token = None
         self.session = None
     
